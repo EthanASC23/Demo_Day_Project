@@ -1,0 +1,27 @@
+/* Feel free to change any of these */
+
+/* Background color for navigation bar */
+.topnav {
+    background-color: red;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+/* Styling the links inside the navigation bar */
+
+.topnav a {
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+body {
+    margin: 0;
+    font-family: 'Bungee Hairline', cursive;
+    font-weight: bold;
+    font-size: xx-large;
+}
