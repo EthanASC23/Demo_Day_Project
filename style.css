@@ -2,7 +2,7 @@
 
 /* Background color for navigation bar */
 .topnav {
-    background-color: red;
+    background-color: #0081A7;
     overflow: hidden;
     display: flex;
     justify-content: center;
@@ -19,9 +19,28 @@
     font-size: 17px;
 }
 
+/* Color of links on hover */
+
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+/* Color of active link on page */
+.topnav a.active {
+    background-color: skyblue;
+    color: white;
+}
+
 body {
     margin: 0;
     font-family: 'Bungee Hairline', cursive;
     font-weight: bold;
     font-size: xx-large;
+    background-image: url('background.jpg');
+    background-size: cover;
+}
+.glacier2 {
+    width: 100%;
+    height: 100%;
 }
