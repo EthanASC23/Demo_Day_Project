@@ -2,7 +2,7 @@
 
 /* Background color for navigation bar */
 .topnav {
-    background-color: #0081A7;
+    background-color: white;
     overflow: hidden;
     display: flex;
     justify-content: space-around;
@@ -12,7 +12,7 @@
 /* Styling the links inside the navigation bar */
 
 .topnav a {
-    color: white;
+    color: black;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -39,6 +39,10 @@ body {
     font-size: xx-large;
     background-image: url('background.jpg');
     background-size: cover;
+}
+.logo {
+    width:13%;
+    height:70px;
 }
 .firstImage {
     width: 50%;
@@ -76,3 +80,4 @@ footer {
     font-family: 'IBM Plex Sans', sans-serif;
     font-size: 30px
 }
+
